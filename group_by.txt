@@ -23,4 +23,4 @@ GROUP BY `exam_id`;
 
 SELECT `deparTment_id`, COUNT(*) AS `total`
 FROM `degrees`
-GROUP BY `deparTment_id`
+GROUP BY `deparTment_id`;

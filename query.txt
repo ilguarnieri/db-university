@@ -44,14 +44,14 @@ AND HOUR(`hour`) >= 14;
 
 SELECT *
 FROM `degrees`
-WHERE `level` = 'magistrale'
+WHERE `level` = 'magistrale';
 
 
 
 7. Da quanti dipartimenti è composta l'università? (12)
 
 SELECT COUNT(*) AS `totale_dipartimenti`
-FROM `departments`
+FROM `departments`;
 
 
 
@@ -59,4 +59,4 @@ FROM `departments`
 
 SELECT COUNT(*) AS `tot_teachers_no_phone`
 FROM `teachers`
-WHERE `phone` IS NULL
+WHERE `phone` IS NULL;
